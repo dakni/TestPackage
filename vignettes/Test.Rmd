@@ -1,0 +1,33 @@
+---
+title: "Summer School -- day two"
+author: 
+- "Daniel"
+- "Alter Ego"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output: bookdown::pdf_document2
+toc: yes
+lot: yes
+lof: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# aha #
+
+Look at Figure \@ref(fig:testing), it shows the output of a magic function.
+
+```{r testing, fig.cap = "add two"}
+library(TestPackage)
+a <- add_2(seq(1:10))
+plot(a)
+```
+
+
+Adding 2 to 4 we get `r add_2(4)`.
+
+
+```{r }
+paste(help(add_2))
+```

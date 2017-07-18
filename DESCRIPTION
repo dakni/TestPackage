@@ -1,0 +1,12 @@
+Package: TestPackage
+Title: Just a test package
+Version: 0.0.0.9000
+Authors@R: person("Daniel", "Knitter", email = "knitter@geographie.uni-kiel.de", role = c("aut", "cre"))
+Description: This is a test package to gain a feeling for the researchcompendium concept put forward by Ben https://github.com/benmarwick/researchcompendium; and of course use the book of Hadley Wickham http://r-pkgs.had.co.nz/.
+Depends: R (>= 3.4.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: raster
+Suggests: testthat

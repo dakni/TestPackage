@@ -2,12 +2,12 @@
 ##'
 ##' there are no specific detail
 ##' @title add two
-##' @param x a numeric
+##' @param y a numeric
 ##' @return a numeric
 ##' @author Daniel Knitter
 ##' @import raster
 ##' @export
-add_2 <- function(x){
+add_2 <- function(y){
   z <- y + 2
   return(z)
   }

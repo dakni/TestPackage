@@ -4,10 +4,10 @@
 \alias{add_2}
 \title{add two}
 \usage{
-add_2(x)
+add_2(y)
 }
 \arguments{
-\item{x}{a numeric}
+\item{y}{a numeric}
 }
 \value{
 a numeric

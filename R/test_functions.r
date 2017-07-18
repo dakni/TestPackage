@@ -8,6 +8,6 @@
 ##' @import raster
 ##' @export
 add_2 <- function(x){
-  z <- x + 2
+  z <- y + 2
   return(z)
   }

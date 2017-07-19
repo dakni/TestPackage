@@ -8,6 +8,8 @@ output: bookdown::pdf_document2
 toc: yes
 lot: yes
 lof: yes
+bibliography: test.bib
+papersize: a4
 ---
 
 ```{r setup, include=FALSE}
@@ -27,7 +29,38 @@ plot(a)
 
 Adding 2 to 4 we get `r add_2(4)`.
 
-
-```{r }
-paste(help(add_2))
+```{r table}
+knitr::kable(head(cars),
+             caption = "A table of the cars package"
+             )
 ```
+
+Look at the table \@ref(tab:table).
+
+Thanks to @bookdown, @rmarkdown, @knitr
+
+Xie knows what he (?) is doing [-@knitr].
+
+```{r addthree}
+add_3(5)
+```
+
+# Caching Tests #
+
+```{r cars, eval=FALSE,cache = TRUE}
+library(tidyverse)
+x <- rnorm(1e6) - 5e3
+knitr::kable(head(x))
+```
+
+```{r pressure, eval = FALSE, echo = FALSE, cache = TRUE, dependson = "cars"}
+knitr::kable(head(x + 2))
+```
+
+# second column
+
+```{r selsecond}
+selsecond(mtcars)
+```
+
+# References

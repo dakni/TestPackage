@@ -8,5 +8,5 @@ COPY . /TestPackage
 
 RUN . /etc/environment \
 
- && R -e "devtools::install('/TestPackage', dep=TRUE)" \
+ && R -e "devtools::install('TestPackage', dep=TRUE)" \
  && R -e "rmarkdown::render('/TestPackage/analysis/Test.Rmd')"

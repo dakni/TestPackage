@@ -63,4 +63,13 @@ knitr::kable(head(x + 2))
 selsecond(mtcars)
 ```
 
+# Packrat test
+
+```{r binford}
+library(binford)
+data(LRB)
+knitr::kable(head(LRB))
+```
+
+
 # References

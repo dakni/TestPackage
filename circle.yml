@@ -6,11 +6,11 @@ dependencies:
   override:
     - docker info
     # so we can use COPY, we send all of the repo, rather than just the dockerfile
-    - docker build -t dakni/testpackage  .
+    - docker build --rm=false -t dakni/testpackage  .
 test:
   override:
       # see if we can start container...
-    - docker run --rm=false --name testpackage -d -p 8787:8787 dakni/testpackage ; sleep 10
+    - docker run --name testpackage -d -p 8787:8787 dakni/testpackage ; sleep 10
       # make RStudio server run in browser...
     - curl --retry 10 --retry-delay 5 -v http://localhost:8787
 

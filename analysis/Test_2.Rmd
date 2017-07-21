@@ -13,7 +13,8 @@ papersize: a4
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE,
+                      cache = FALSE)
 ```
 
 # aha #
@@ -190,6 +191,124 @@ harran_gi <- Ginhom(harran_ppp, lambda = predict(harran_rhohat))
 #plot(harran_g, xlim = c(0,6000))
 ```
 
+# Interpolation
 
+```{r int1}
+load("../data/Precipitation.RData")
+test <- data.frame(test)
+library(sp)
+coordinates(test) <- ~lon+lat
+proj4string(test) <- CRS("+init=epsg:4326")
+test2 <- spTransform(test, CRS("+init=epsg:32634"))
+plot(test2)
+library(raster)
+##srtm <- getData("SRTM", lon=mean(coordinates(test)[,1]), lat=mean(coordinates(test)[,2]))
+srtm <- raster("../srtm_41_05.tif")
+srtm <- crop(srtm, extent(test)+1)
+plot(srtm)
+srtm3 <- projectRaster(srtm, crs=CRS("+init=epsg:32634"))
+srtm3 <- aggregate(srtm3, fact = 3)
+library(gstat)
+```
+
+## IDW
+
+```{r idw}
+rain_idw <- idw(mean_r~1, test2, as(srtm3, "SpatialGridDataFrame"))
+rain_idw_cv <- krige.cv(mean_r~1, test2)
+head(rain_idw_cv)
+plot(rain_idw)
+```
+
+## Kriging
+
+```{r krige}
+plot(variogram(mean_r~1, loc = test2, cloud = TRUE))
+va <- variogram(mean_r~1, loc = test2, cutoff = 80000, width = 5000)
+plot(va)
+plot(va, vgm(8e+04, "Exp", 5e+04, 5000))
+fva <- fit.variogram(va, vgm(8e+04, "Exp", 5e+04, 5000),
+fit.method = 7) ## ordinary least squares; default
+plot(va, fva)
+rain_krige <- krige(mean_r~1, test2, as(srtm3, "SpatialGridDataFrame"), fva)
+rain_krige_cv <- krige.cv(mean_r~1, test2, fva)
+head(rain_krige_cv)
+plot(rain_krige)
+rain_krige2 <- brick(rain_krige)
+plot(rain_krige2)
+```
+
+## Automatic Kriging
+
+```{r autokrige}
+library(automap)
+rainautkrige <- automap::autoKrige(mean_r~1, test2, as(srtm3, "SpatialGridDataFrame"))
+str(rainautkrige)
+plot(rainautkrige)
+tmp <- rainautkrige[[1]]
+tmp <- raster(tmp)
+tmp2 <- raster(rain_krige)
+tmp3 <- tmp2-tmp
+plot(tmp3)
+## or using Reduce function (that needs a list)
+plot(Reduce("-", list(tmp2,tmp)))
+```
+
+## Kriging with external drift
+
+```{r kwed}
+names(srtm3) <- "altitude"
+test3 <- test2[!is.na(test2$altitude),]
+rainkwed <- automap::autoKrige(mean_r~altitude, test3, as(srtm3, "SpatialGridDataFrame"))
+plot(rainkwed)
+```
+
+## Kriging with external drift (manual)
+
+see Wolfgang's script.
+
+```{r kwedManual}
+linmod <- lm(mean_r~altitude, test3)
+linmod
+
+plot(variogram(linmod$residuals~1, loc = test3, cloud = TRUE))
+
+```
+
+## the easy way: altitude  + x
+
+see Wolfgang's script.
+
+```{r kwedelev}
+test3$x <- coordinates(test3)[,1]
+
+
+```
+
+```{r try}
+library(lattice); library(gstat)
+
+v <- variogram(mean_r ~ 1, test3)
+xyplot(
+    x = gamma/1e8 ~ dist,
+    data = v,
+    pch = 3,
+    type = 'b',
+    lwd = 2,
+    panel = function(x, y, ...) {
+        for (i in 1:500) {
+            test3$random = sample(test3$mean_r)
+            v = variogram(random ~ 1, test3)
+            llines(x = v$dist,
+                   y = v$gamma/1e8,
+                   col = rgb(.5,.5,.5,.2)
+                   )
+        }
+        panel.xyplot(x, y, ...)
+    },
+    xlab = 'distance',
+    ylab = 'semivariance/1e8'
+)
+```
 
 # References

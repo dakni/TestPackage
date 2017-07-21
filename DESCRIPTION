@@ -7,6 +7,6 @@ Depends: R (>= 3.4.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: dplyr, magrittr
+Imports: dplyr, magrittr,spatstat, raster, rgal, rmarkdown, knitr, bookdown, readr, binford
 RoxygenNote: 6.0.1
 Suggests: testthat

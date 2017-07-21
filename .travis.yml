@@ -5,3 +5,16 @@ sudo: false
 cache: packages
 repos:
   MRAN: "https://mran.microsoft.com/snapshot/2017-07-20"
+addons:
+  apt:
+    packages:
+      - libudunits2-dev
+      - libdgdal-dev
+      - libgsl0-dev
+      - gdal-bin
+      - libgeos-dev
+      - libpng-dev
+      - libproj-dev
+script:
+  - Rscript -e "devtools::install()"
+  - Rscript -e "rmarkdown::render('analysis/Test_2.Rmd')"

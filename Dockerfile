@@ -1,5 +1,5 @@
 # get the base image, this one has R, RStudio and pandoc
-FROM rocker/verse:3.4.1
+FROM rocker/verse
 
 # required
 MAINTAINER Daniel <knitter@geographie.uni-kiel.de>

@@ -1,0 +1,834 @@
+,Name,X,Y,Mentioned_Epoch
+1,Anep Sırtı,38.766667,37.633333,Upper Palaeolithic
+2,Çekiş Sırtı,38.85,37.666667,Middle Palaeolithic Period
+3,Çekiş Sırtı,38.85,37.666667,Lower Paleolithic
+4,Göbekli Tepe,38.922471,37.223283,PPNA
+5,Göbekli Tepe,38.922471,37.223283,EPPNB
+6,Göbekli Tepe,38.922471,37.223283,MPPNB
+7,Göbekli Tepe,38.922471,37.223283,PPN
+8,Griki Ağni,38.75,37.633333,Late Chalcolithic Age
+9,Griki Ağni,38.75,37.633333,Iron Age
+10,Griki Ağni,38.75,37.633333,Classical Period 
+11,Griki Ağni,38.75,37.633333,post Classical Period
+12,Gürcütepe,38.833333,37.133333,Ceramic Neolithic 
+13,Gürcütepe,38.833333,37.133333,Aceramic Neolithic 
+14,Hacıekber,38.9,36.783333,Chalcolithic Age
+15,Hacıekber,38.9,36.783333,Halaf Period 
+16,Hacıekber,38.9,36.783333,Iron Age
+17,Hacıekber,38.9,36.783333,Early Bronze Age
+18,Hamzan Tepe,38.803305,37.084818,PPNA
+19,Hamzan Tepe,38.803305,37.084818,Pre-Pottery Neolithic
+20,Hassek Höyük,38.916667,37.75,Late Chalcolithic Age
+21,Hassek Höyük,38.916667,37.75,
+22,Hassek Höyük,38.916667,37.75,
+23,Hassek Höyük,38.916667,37.75,Early Bronze Age 1
+24,Hassek Höyük,38.916667,37.75,Early Bronze Age 2
+25,Hinsor,39.066667,38.616667,Hassuna Period
+26,Hinsor,39.066667,38.616667,Halaf Period
+27,Hinsor,39.066667,38.616667,Ubaid Period
+28,Hinsor,39.066667,38.616667,Chalcolithic Age
+29,Hinsor,39.066667,38.616667,
+30,Hinsor,39.066667,38.616667,Early Bronze Age 2
+31,Hinsor,39.066667,38.616667,Early Bronze Age 3
+32,Hirbik Mevkii,38.916667,37.7,Late Chalcolithic Age
+33,Hirbik Mevkii,38.916667,37.7,Late Bronze Age
+34,Hirbik Mevkii,38.916667,37.7,Post-Classical Period
+35,İviktepe,38.95,38.766667,Late Chalcolithic Age
+36,İviktepe,38.95,38.766667,Early Bronze Age 1
+37,İviktepe,38.95,38.766667,Early Bronze Age 2
+38,İviktepe,38.95,38.766667,Early Bronze Age 3
+39,İviktepe,38.95,38.766667,Middle Age
+40,İviktepe,38.95,38.766667,Late Bronze Age
+41,İviktepe,38.95,38.766667,Iron Age
+42,Asagiyarimca,38.9690142522,36.8953075185,Neo-Assyrian
+43,Asagiyarimca,38.9690142522,36.8953075185,Islamic
+44,Asvan Kale (FALSCH),38.95,36.9,Early Dynastic/Early Bronze Age II-III
+45,Asvan Kale (FALSCH),38.95,36.9,Akkad/Early Bronze Age IVa
+46,Asvan Kale (FALSCH),38.95,36.9,Ur III/Early Bronze Age IVB
+47,Asvan Kale (FALSCH),38.95,36.9,Neo-Assyrian
+48,Asvan Kale (FALSCH),38.95,36.9,Seleucid/Early Parthian
+49,Asvan Kale (FALSCH),38.95,36.9,Roman/Late Parthian
+50,Asvan Kale (FALSCH),38.95,36.9,Islamic
+51,Küplüce,38.816667,36.783333,Islamic Period
+52,Küplüce,38.816667,36.783333,Late Chalcolithic Age 
+53,Küplüce,38.816667,36.783333,Uruk Period
+54,Küplüce,38.816667,36.783333,Early Bronze Age
+55,Küplüce,38.816667,36.783333,Hellenistic Period
+56,Küplüce,38.816667,36.783333,Halafian Period
+57,Küplüce,38.816667,36.783333,Ubaidian Period
+58,Küplüce,38.816667,36.783333,Medieval Age
+59,Kuzler Tepe,38.766667,37.266667,Halaf period
+60,Kuzler Tepe,38.766667,37.266667,Early Chalcolithic
+61,Kuzler Tepe,38.766667,37.266667,
+62,Poyraz,39.033333,38.666667,Middle Chalcolithic Age
+63,Poyraz,39.033333,38.666667,Early Bronze Age
+64,Poyraz,39.033333,38.666667,Early Iron Age
+65,Resulyan,38.816667,37.366667,Early Chalcolithic Age
+66,Resulyan,38.816667,37.366667,
+67,Şanlıurfa Yöresi,38.8,37.216667,Middle Acheuléen
+68,Şanlıurfa Yöresi,38.8,37.216667,Lower Paleolithic
+69,Tahılalan,38.95,36.833333,Chalcolithic Age
+70,Tahılalan,38.95,36.833333,Early Bronze Age
+71,Göbekli Tepe,38.922471,37.223283,Epipal./PPNA
+72,Göbekli Tepe,38.922471,37.223283,EPPNB
+73,Göbekli Tepe,38.922471,37.223283,MPPNB
+74,Gürcütepe,38.833333,37.133333,LPPNB
+75,Gürcütepe,38.833333,37.133333,FPPNB
+76,Gürcütepe,38.833333,37.133333,PN
+77,Hamzan Tepe,38.803305,37.084818,PPNB
+78,Küçükhedbe,39,36.766667,PN
+79,Tell İdris,39,36.833333,Halaf Period
+80,Tell İdris,39,36.833333,Early Bronze Age
+81,Tell İdris,39,36.833333,Pre-Halaf Period
+82,Tell İdris,39,36.833333,Late Neolithic Period
+83,Tell İdris,39,36.833333,Ubaid Period
+84,Tell İdris,39,36.833333,Halafian Period
+85,Tell İdris,39,36.833333,Uruk Period
+86,Tell İdris,39,36.833333,Chalcolithic Age
+87,Tell Mahruk,39,36.8,Middle Chalcolithic Age
+88,Tell Mahruk,39,36.8,Early Chalcolithic Age
+89,Tell Mahruk,39,36.8,Late Chalcolithic Age
+90,Tell Mahruk,39,36.8,Halaf Period
+91,Tell Mahruk,39,36.8,Ubaid Period
+92,Tell Mahruk,39,36.8,Uruk Period
+93,Tell Mahruk,39,36.8,Early Bronze Age 
+94,Tell Mahruk,39,36.8,Middle Bronze Age 
+95,Tell Mahruk,39,36.8,Late Bronze Age
+96,Tell Mahruk,39,36.8,Iron Age
+97,Tille,38.883333,37.75,Late Chalcolithic Age
+98,Tille,38.883333,37.75,Early Bronze Age 
+99,Tille,38.883333,37.75,Late Bronze Age
+100,Tille,38.883333,37.75,Hellenistic Period
+101,Tille,38.883333,37.75,Achaemenid Period
+102,Tille,38.883333,37.75,Neo- Assyrian Level
+103,Tille,38.883333,37.75,Late Bronze Age 1
+104,Tille,38.883333,37.75,Late Bronze Age 2
+105,Tille,38.883333,37.75,Post-Assyrian Period
+106,Tille,38.883333,37.75,Early Iron Age
+107,Tille,38.883333,37.75,Late Hittite Period
+108,Umer/Omur Tepe,38.883333,37.033333,Early Chalcolithic
+109,Umer/Omur Tepe,38.883333,37.033333,Late Chalcolithic
+110,Umer/Omur Tepe,38.883333,37.033333,Halaf Period
+111,Umer/Omur Tepe,38.883333,37.033333,Uruk Period
+112,Umer/Omur Tepe,38.883333,37.033333,Early Bronze Age
+113,Umer/Omur Tepe,38.883333,37.033333,
+114,Urfa Merkez Höyük,38.783333,37.133333,Early Chalcolithic
+115,Urfa Merkez Höyük,38.783333,37.133333,Middle Chalcolithic
+116,Urfa Merkez Höyük,38.783333,37.133333,Halaf Period
+117,Urfa Merkez Höyük,38.783333,37.133333,Ubaid Period
+118,Urfa Merkez Höyük,38.783333,37.133333,
+119,Yayvandoruk,39.1,36.833333,Early Chalcolithic Age
+120,Yayvandoruk,39.1,36.833333,Early Bronze Age
+121,Yayvandoruk,39.1,36.833333,Hellenistic Period 
+122,Yayvandoruk,39.1,36.833333,Roman Period
+123,Yayvandoruk,39.1,36.833333,Medieval Period
+124,Yayvandoruk,39.1,36.833333,Islamic Period
+125,Yeni Mahalle,38.785211,37.148911,PPNA
+126,Yeni Mahalle,38.785211,37.148911,EPPNB
+127,Yeni Mahalle,38.785211,37.148911,Pre-Pottery Neolithic
+128,Yeserti,38.955624,36.791298,Early Chalcolithic Age
+129,Yeserti,38.955624,36.791298,Middle Chalcolithic Age
+130,Yeserti,38.955624,36.791298,Halaf Period
+131,Yeserti,38.955624,36.791298,Ubaid Period
+132,Yeserti,38.955624,36.791298,Early Bronze Age
+133,Yeserti,38.955624,36.791298,Iron Age
+134,Yeserti,38.955624,36.791298,Medieval Age
+135,Yeserti,38.955624,36.791298,Islamic Period
+136,Çavi Tarlası,38.966667,37.75,Early Chalcolithic Age
+137,Çavi Tarlası,38.966667,37.75,between the end of Halaf and Late Halaf period
+138,Grik Tepe,38.883333,37.7,Early Chalcolithic Age (Halaf Period)
+139,Grik Tepe,38.883333,37.7,Late Chalcolithic Age (Uruk Period)
+140,Grik Tepe,38.883333,37.7,Early Bronze Age
+141,Harran,39.029844,36.862981,Pre-Dynasty Period
+142,Harran,39.029844,36.862981,Halaf Phase
+143,Harran,39.029844,36.862981,Ubaid Phase
+144,Harran,39.029844,36.862981,Jemdet Nasr Phase
+145,Harran,39.029844,36.862981,Early Dynasties II Period
+146,Harran,39.029844,36.862981,Early Dynasties III Period
+147,Harran,39.029844,36.862981,Akkad Period
+148,Harran,39.029844,36.862981,Ur 3 Period
+149,Harran,39.029844,36.862981,Pre-Halaf Period
+150,Harran,39.029844,36.862981,Early Bronze Age 1
+151,Harran,39.029844,36.862981,Early Bronze Age 2
+152,Harran,39.029844,36.862981,Early Bronze Age 3
+153,Harran,39.029844,36.862981,New Assyrian Empire Period
+154,Harran,39.029844,36.862981,Iron Age
+155,Küçükhedbe,39,36.766667,Ceramic Neolithic
+156,Küçükhedbe,39,36.766667,Halaf Period
+157,Küçükhedbe,39,36.766667,Early Chalcolithic Age
+158,Küçükhedbe,39,36.766667,Ealy Bronze Age
+159,Küçükhedbe,39,36.766667,Iron Age
+160,Küçükhedbe,39,36.766667,Medieval Age
+161,Sultantepe,38.9066031067,37.0501290613,Halaf Period
+162,Sultantepe,38.9066031067,37.0501290613,Uruk Period
+163,Sultantepe,38.9066031067,37.0501290613,Early Bronze Age
+164,Sultantepe,38.9066031067,37.0501290613,Middle Bronze Age
+165,Sultantepe,38.9066031067,37.0501290613,Late Bronze Age
+166,Sultantepe,38.9066031067,37.0501290613,Roman Period
+167,Sultantepe,38.9066031067,37.0501290613,Medieval Age
+168,Sultantepe,38.9066031067,37.0501290613,Islamic Period
+169,Toprakkale,38.95,37.783333,Late Chalcolithic Age
+170,Gök Tepe,39,37.566667,Halafian 
+171,Gök Tepe,39,37.566667,
+172,Kılıçlı/Tell Seyf,38.95,36.85,Early Chalcolithic Age
+173,Kılıçlı/Tell Seyf,38.95,36.85,Early Bronze Age
+174,Kılıçlı/Tell Seyf,38.95,36.85,Middle Bronze Age
+175,Kılıçlı/Tell Seyf,38.95,36.85,Late Bronze Age
+176,Kılıçlı/Tell Seyf,38.95,36.85,Roman Period
+177,Kılıçlı/Tell Seyf,38.95,36.85,Medieval Age
+178,Kılıçlı/Tell Seyf,38.95,36.85,Islamic Period
+179,Koruklu Tepesi,38.9207526211,36.8963307887,Chalcolithic Age
+180,Kazane Höyük,38.8462476903,37.1197202148,Early Bronze Age
+181,Kazane Höyük,38.8462476903,37.1197202148,Bronze Age
+182,Turluk,38.9425721938,37.0033837739,Chalcolithic
+183,Turluk,38.9425721938,37.0033837739,Early Bronze Age
+184,Turluk,38.9425721938,37.0033837739,Iron Age
+185,Parapara,38.9454376792,36.9492459652,Chalcolithic
+186,Parapara,38.9454376792,36.9492459652,Uruk Period /  Late Chalcolithic Age
+187,Parapara,38.9454376792,36.9492459652,Early Bronze Age
+188,Parapara,38.9454376792,36.9492459652,Middle Bronze Age
+189,Parapara,38.9454376792,36.9492459652,Late Bronze Age
+190,Parapara,38.9454376792,36.9492459652,Chalcolithic Ubaid
+191,Parapara,38.9454376792,36.9492459652,Iron Age
+192,Parapara,38.9454376792,36.9492459652,Islamic Period
+193,Bellitaş,39.1248473423,36.9167501465,Chalcolithic / Halaf
+194,Bellitaş,39.1248473423,36.9167501465,Early Bronze Age
+195,Bellitaş,39.1248473423,36.9167501465,Iron Age
+196,Bellitaş,39.1248473423,36.9167501465,Hellenistic/Roman
+197,Bellitaş,39.1248473423,36.9167501465,Medieval-Islamic
+198,Koruklu Tepesi,38.9207526211,36.8963307887,Early Bronze Age
+199,Koruklu Tepesi,38.9207526211,36.8963307887,Paleolithic
+200,Koruklu Tepesi,38.9207526211,36.8963307887,Iron Age
+201,Aşağıderen,39.0207643018,36.7659658578,Chalcolithic / Halaf
+202,Aşağıderen,39.0207643018,36.7659658578,Early Bronze Age
+203,Varlıalan,39.011124,36.828079,"Chalcolithik
+Obeyd
+EBA
+Roman
+Islamic"
+204,Harran,39.029844,36.862981,"Chalcolithik
+Halaf
+Chal.trans. into EBA
+EBA
+Second Mill.
+First Mill.
+Hellenistic
+Roman
+Islamic
+"
+205,Tell İdris,39,36.833333,"Chalcolithik
+Halaf
+Obeyd
+Chal.trans. into EBA"
+206,Tell Magrum,39.040991,36.831946,"Chalcolithik
+Halaf
+EBA
+First Mill.
+Islamic"
+207,Tell Mahruk,39,36.8,"Chalcolithik
+Halaf
+Obeyd
+EBA
+First Mill.
+Islamic"
+208,Küplüce,38.816667,36.783333,"Chalcolithik
+Halaf
+Obeyd
+EBA
+First Mill.
+Hellenistic
+Islamic"
+209,Küçükhedbe,39,36.766667,"Neolithic
+Chalcolithik
+Halaf
+EBA
+First Mill.
+Islamic"
+210,Seferköy,38.97957,36.768833,"EBA
+Roman
+Islamic"
+211,Yukarideren,38.987818,36.748214,"Chalcolithik
+EBA
+Second Mill.
+Islamic"
+212,Aşağıderen,39.0207643018,36.7659658578,"Chalcolithik
+Halaf
+EBA
+Second Mill."
+213,Halava,39.074192,36.752963,"Chalcolithik
+Halaf
+EBA
+First Mill.
+Roman
+Islamic"
+214,Kayaca,39.098735,36.7649,"Roman
+Islamic"
+215,Garparıcan,39.022233,36.738363,"Chalcolithik
+First Mill.
+Islamic"
+216,Ekinyazi,39.139926,36.730103,"First Mill.
+Islamic"
+217,Andac,39.138259,36.748602,"Chalcolithik
+EBA
+Second Mill.
+First Mill.
+Roman
+Islamic
+"
+218,Algili,39.136717,36.773768,"Chalcolithik
+Halaf
+EBA
+First Mill.
+"
+219,Evciler,39.127991,36.783928,"Chalcolithik
+EBA"
+220,Uzuntepe,39.1127664747,36.7915884417,"EBA
+Roman
+Islamic"
+221,Aydınlar,39.114922,36.804854,"Chalcolithik
+EBA
+First Mill.
+"
+222,Bulgurlu (FALSCH),39.091907,36.812535,Islamic
+223,Akçalı,39.106922,36.819089,"Chalcolithik
+EBA
+Islamic
+"
+224,Gettaş (FALSCH),39.132955,36.850047,"Chalcolithik
+Second Mill.
+First Mill.
+Islamic"
+225,Avlak,39.16178,36.811009,"Chalcolithik
+Halaf
+EBA
+First Mill.
+Roman
+Islamic
+"
+226,Çerme (FALSCH),39.131148,36.948037,"Chalcolithik
+Halaf
+EBA
+First Mill.
+Roman
+Islamic"
+227,Yayvandoruk,39.1,36.833333,"Chalcolithik
+Halaf
+EBA
+Second Mill.
+Hellenistic
+Islamic"
+228,Alancık,39.118049,36.878302,"Chalcolithik
+Halaf
+Obeyd
+EBA
+First Mill.
+Roman
+Islamic"
+229,Arıklı,39.074211,36.872202,"Chalcolithik
+EBA
+Second Mill.
+First Mill.
+Roman
+Islamic"
+230,Şükürali,39.074033,36.888873,"Chalcolithik
+First Mill.
+Roman
+Islamic"
+231,Sıralı,39.047645,36.914331,"Chalcolithik
+EBA
+First Mill.
+Hellenistic"
+232,Tahılalan,38.95,36.833333,"Chalcolithik
+EBA
+Islamic"
+233,Balgat (FALSCH),38.993009,36.886062,"Chalcolithik
+EBA
+Islamic"
+234,Buğdaytepe,39.011908,36.892786,"Chalcolithik
+EBA
+Islamic"
+235,Köyeştepe (FALSCH),39.011664,36.910248,"Chalcolithik
+Halaf
+Obeyd
+EBA
+First Mill.
+Hellenistic
+Roman
+Islamic"
+236,Koruklu Tepesi,38.9207526211,36.8963307887,"Chalcolithik
+EBA
+Second Mill.
+Roman"
+237,Asagiyarimca,38.9690142522,36.8953075185,"Chalcolithik
+Halaf
+Obeyd
+EBA
+First Mill.
+Roman
+Islamic"
+238,Sütlüce,38.97261,36.824941,"Chalcolithik
+EBA
+First Mill.
+Islamic"
+239,Gentari (FALSCH),38.991492,36.798746,"Chalcolithik
+Halaf
+EBA
+Second Mill.
+First Mill.
+Hellenistic
+Roman
+Islamic
+"
+240,Bolatlar,38.956062,36.766544,"Chalcolithik
+Halaf
+First Mill.
+"
+241,İkizce (FALSCH),38.985498,36.782032,"Chalcolithik
+Halaf
+Chal. Trans. into EBA
+EBA
+Islamic
+"
+242,Aşağı Gülveren (FALSCH),38.978799,36.771042,"Chalcolithik
+Halaf
+Obeyd
+EBA
+Roman
+Islamic
+"
+243,Yukarıbeğdeş,38.90409,36.847549,"Chalcolithik
+Obeyd
+EBA
+First Mill.
+Roman
+Islamic
+"
+244,Dorumali,38.852984,36.806551,"Chalcolithik
+Obeyd
+EBA
+Second Mill.
+First Mill.
+Roman
+Islamic
+"
+245,Aşağıbeğdeş,38.9197125457,36.8145053661,"Chalcolithik
+Halaf
+EBA
+Second Mill.
+First Mill.
+Roman
+Islamic
+"
+246,Telediriç Tepe,38.897923,36.775688,"Chalcolithik
+Halaf
+EBA
+First Mill.
+Roman
+Islamic
+"
+247,Öncül (FALSCH),38.968642,36.727615,"First Mill.
+Roman
+Islamic
+"
+248,Hamdi Tepe (FALSCH),39.065271,36.730477,"Chalcolithik
+EBA
+Roman
+Islamic
+"
+249,Serince (FALSCH),38.956784,36.884612,"EBA
+Second Mill.
+First Mill.
+Roman
+Islamic"
+250,Çuhalımırgebesi (FALSCH),38.980065,36.900646,"Chalcolithik
+Halaf
+Obeyd
+EBA"
+251,Geçittepe,38.887303,36.880753,"Chal. Trans. into EBA
+EBA
+Second Mill."
+252,Kara Tepe,38.880293,36.899704,"Chalcolithik
+EBA
+Second Mill.
+Roman
+Islamic
+"
+253,Ömertepe,38.887996,37.066046,"Chalcolithik
+Obeyd
+EBA
+Second Mill.
+First Mill.
+Islamic
+"
+254,Sultantepe,38.9066031067,37.0501290613,"Chalcolithik
+EBA
+Second Mill.
+First Mill.
+Roman
+Islamic
+"
+255,Kabköy,38.941264,37.045739,"Chalcolithik
+EBA
+Second Mill.
+First Mill.
+Roman
+Islamic
+"
+256,Kurucuk (FALSCH),38.974437,37.084756,"Chalcolithik
+Chal. Trans. into EBA
+EBA
+First Mill.
+Islamic
+"
+257,Boydere (FALSCH),38.878168,37.12746,"EBA
+Roman
+
+"
+258,Keserdede (FALSCH),38.971402,37.105533,"Chalcolithik
+EBA
+First Mill.
+Roman
+Islamic
+"
+259,Günbalı (FALSCH),38.991751,37.103409,-
+260,Turluk,38.9425721938,37.0033837739,"Chalcolithik
+EBA
+First Mill.
+Islamic
+"
+261,Altıntepe,38.903598,37.11983,"Chalcolithik
+EBA
+Islamic
+"
+262,Kız Tepesi (FALSCH),38.946353,37.116567,"Chalcolithik
+EBA
+First Mill.
+Roman
+Islamic"
+263,Parapara,38.9454376792,36.9492459652,"Chalcolithik
+Obeyd
+Chal. Trans. into EBA
+EBA
+First Mill."
+264,Geçitli (FALSCH),38.896211,36.865418,"Roman
+Islamic"
+265,Köyceğiz (FALSCH),38.973353,37.084702,"EBA
+First Mill.
+Roman
+Islamic"
+266,Hacıekber,38.9,36.783333,"Islamic
+"
+267,Demirci (FALSCH),38.921617,36.782458,"EBA
+First Mill.
+Roman
+Islamic"
+268,Bagiye Tepe (FALSCH),39.109735,36.872733,"Chalcolithik
+Halaf
+Chal. Trans. into EBA
+EBA
+Islamic"
+269,Balkır (FALSCH),39.115416,36.867752,"Chalcolithik
+EBA
+First Mill.
+Islamic"
+270,Kazane Höyük,38.8462476903,37.1197202148,"Chalcolithik
+Halaf
+Obeyd
+EBA
+First Mill.
+"
+271,Çamurlu Tepe,38.873543,37.083185,"Chalcolithik
+Halaf
+Obeyd
+EBA
+Roman
+Islamic"
+272,Taşbasan (FALSCH),38.900113,37.090378,"Islamic
+"
+273,Şarki Hırhız At (FALSCH),38.935071,36.776832,"Chalcolithik
+EBA
+First Mill.
+Roman
+Islamic
+"
+274,Yeni Köy (FALSCH),38.887695,37.148418,"EBA
+"
+275,Çağbaşı,39.133424,36.885898,"Chalcolithik
+Second Mill.
+First Mill.
+Hellenistic
+Roman
+Islamic"
+276,Bellitaş,39.1248473423,36.9167501465,"Chalcolithik
+Halaf
+EBA
+Second Mill.
+First Mill.
+Hellenistic
+Roman
+Islamic
+"
+277,Buğday Kuyusu (SRB-16-9),39.122001,36.965895,"Chalcolithik
+EBA
+Second Mill.
+First Mill.
+Roman
+Islamic
+"
+278,Küpeli,39.102753,36.957537,"Chalcolithik
+Halaf
+Obeyd
+EBA
+Roman
+Islamic"
+279,Tuzluca (FALSCH),39.160485,37.017583,"Chalcolithik
+EBA
+Second Mill.
+Islamic
+"
+280,Kırklar (FALSCH),39.123558,37.004611,"Chalcolithik
+First Mill.
+Roman
+Islamic
+"
+281,Vergili,39.084107,36.996429,"Chalcolithik
+Chal. Trans. into EBA
+EBA
+Second Mill.
+First Mill.
+"
+282,Eski Harran,39.057841,36.933352,"Chalcolithik
+Halaf
+Obeyd
+EBA
+First Mill.
+Roman
+Islamic"
+283,Üzerlik (FALSCH),39.0807671198,36.9460188148,"Chalcolithik
+EBA
+Second Mill.
+First Mill.
+Islamic"
+284,Zibe (FALSCH),39.062883464,36.9517803884,"Hellenistic
+Roman
+Islamic"
+285,Suvacık (FALSCH),39.0473783102,36.9523169842,"Chalcolithik
+Halaf
+First Mill.
+Islamic"
+286,Hasantepe (FALSCH),38.988149,36.816902,"Chalcolithik
+EBA
+First Mill.
+Islamic"
+287,Tozluca Köyü (FALSCH),38.9465809164,36.9239355746,"Chalcolithik
+Obeyd
+First Mill.
+Roman
+Islamic"
+288,Bağra,39.152218,36.849818,"First Mill.
+"
+289,Atatürk Köyü,39.074242,36.973786,"Chalcolithik
+EBA
+First Mill.
+Roman
+Islamic"
+290,Edelyi (FALSCH),39.0629497291,36.9919103266,"Chalcolithik
+Halaf
+Obeyd
+Second Mill.
+First Mill.
+Roman
+Islamic"
+291,Kabacık,39.063225,37.007417,"Chalcolithik
+Halaf
+Second Mill.
+First Mill.
+Islamic"
+292,Kırmızı Tepe,39.085044,37.028993,"Chalcolithik
+EBA
+First Mill.
+Roman
+Islamic
+"
+293,Yazılı Kavak,39.0871,37.086028,"Chalcolithik
+Obeyd
+EBA
+Second Mill.
+First Mill.
+Hellenistic
+Roman
+Islamic"
+294,Süpürgelik Tepe,39.065618,37.123268,"EBA
+Second Mill.
+First Mill.
+Roman
+Islamic"
+295,Horoz Köy,39.035899,37.050418,"Chalcolithik
+EBA
+Second Mill.
+First Mill.
+Roman
+Islamic"
+296,Mamuca,39.028316,37.077014,"Chalcolithik
+Chal. Trans. into EBA
+EBA
+Second Mill.
+First Mill.
+Roman
+Islamic"
+297,Mamuca Resim Tepe (FALSCH),39.0317176735,37.0739017297,"Chal. Trans. into EBA
+EBA
+Roman
+"
+298,Resimhan Mevkii (FALSCH),38.9662681402,37.117266655,"Chalcolithik
+EBA
+First Mill.
+Roman
+Islamic"
+299,Mamos Tepe,38.953124,37.125512,"Chalcolithik
+Halaf
+Obeyd
+First Mill."
+300,Gelincik (FALSCH),38.879505,37.129003,"Chalcolithik
+Chal. Trans. into EBA
+EBA
+Second Mill."
+301,Elhan (FALSCH),38.9324157637,37.0534490285,"First Mill.
+Islamic"
+302,Kab Köyü (FALSCH),38.9354061853,37.0542129632,-
+303,A. Özkan Tarlası (FALSCH),38.9375056666,37.0568685991,"Chalcolithik
+Halaf
+Obeyd
+Chal. Trans. into EBA
+Islamic"
+304,Taşlica (FALSCH),38.9759498257,36.9998044706,"Roman
+Islamic"
+305,Yamaç Altı,38.939231,36.971622,"Chal. Trans. into EBA
+EBA
+First Mill.
+Islamic"
+306,Şahinalan (FALSCH),38.9714054297,36.9339851429,"Chalcolithik
+Islamic"
+307,Aklar Köyü (FALSCH),38.9339677392,36.9523803527,"First Mill.
+Islamic"
+308,Mahmut G. Tarlası (FALSCH),39.0585626239,36.9040392123,"Chalcolithik
+Obeyd
+EBA
+Roman
+Islamic"
+309,Tığlıca (FALSCH),39.1284576522,37.0270557708,"First Mill.
+Islamic"
+310,Bulduk (FALSCH),39.1049750674,37.0340029977,"EBA
+Second Mill.
+Roman
+Islamic"
+311,Doğramacı (FALSCH),39.1111868911,37.0561344617,"Roman
+Islamic"
+312,Salihler,38.875181,36.730457,Islamic
+313,Bakacak Köyü,38.845746,36.728918,"Roman
+Islamic"
+314,Zorlu,38.957239,36.7322788,"Chalcolithik
+Chal. Trans. into EBA
+First Mill.
+Roman
+Islamic"
+315,Zorlu K. Mevkii,38.961711,36.72709,"First Mill.
+Roman
+Islamic"
+316,Anaz (FALSCH),39.0299259133,37.1418368483,"EBA
+First Mill.
+Roman
+Islamic"
+317,Darıca ,39.099562,36.877455,Islamic
+318,Sağlam Havşan (FALSCH),38.961101,36.75866,"Second Mill.
+First Mill.
+Roman
+Islamic"
+319,Şekertepe Mehmet Aktar Talarsi,38.87461,36.77373,"First Mill.
+Roman
+Islamic"
+320,Donandı,38.890959,36.816829,Islamic
+321,Karacurun,38.885622,36.816198,"Chal. Trans. into EBA
+First Mill.
+Islamic"
+322,Köseören,38.842756,36.829518,"EBA
+First Mill.
+Roman
+Islamic"
+323,Burhan Tepe,38.864089,36.845665,"EBA
+Second Mill.
+Roman
+Islamic"
+324,Nusretiye,38.865168,36.856322,"Chalcolithik
+Halaf
+Obeyd
+First Mill.
+Islamic"
+325,Ballıca,39.026378,36.914248,Islamic
+326,Arayt (FALSCH),38.9961962393,36.9257212965,Islamic
+327,Örtülü (FALSCH),39.0003437279,36.9152598214,"EBA
+First Mill.
+Roman
+Islamic"
+328,Minare (FALSCH),39.0029934524,36.9316586664,"Roman
+Islamic"
+329,Ahmet Aslan Tar. (FALSCH),39.001695154,36.9343745437,"Roman
+Islamic"
+330,Mesudiye,38.8663617,36.8715053,"Chalcolithik
+Halaf
+Obeyd
+EBA
+First Mill.
+Islamic"
+331,Kökenli,38.934288,36.8773339,"Chalcolithik
+Halaf
+First Mill.
+Roman
+Islamic"
+332,Kara Tarla,39.01331,36.72795,"Chalcolithik
+Roman
+Islamic"
+333,Taylica (Hirbet-ül Hasso),39.0532,36.73751,"EBA
+First Mill.
+Islamic"
+334,Halil Tarlasi,38.990528,36.737599,"Hellenistic
+Roman
+Islamic"
+335,Oğlaklı,39.15492,36.83244,"Chalcolithik
+Halaf
+EBA
+Roman
+Islamic"
+336,Sağlam Havşan (FALSCH),38.961101,36.75866,"Chalcolithik
+EBA
+First Mill.
+Islamic"
+337,Erdem (Masture),39.098918297,36.7910153162,"Chalcolithik
+First Mill.
+Roman"
+338,Matha,39.049521,36.899112,Islamic
+339,Ersum Mevkii (FALSCH),39.061565,36.871136,"First Mill.
+Islamic"
+340,Resimtepe,39.12594,36.749523,"Chalcolithik
+Halaf
+Obeyd
+EBA
+First Mill.
+Roman
+Islamic"
+341,Aydınlar (FALSCH),39.122784,36.8235,"EBA
+First Mill.
+Islamic"
+342,Selalmaz,39.132873,36.814642,Islamic
+343,Bilece,38.832506,36.706587,"Chalcolithik
+Halaf
+EBA
+First Mill.
+Roman
+Islamic"
+344,Deleftepe,38.8117,36.70863,"Chalcolithik
+Halaf
+Obeyd
+First Mill.
+Roman
+Islamic"

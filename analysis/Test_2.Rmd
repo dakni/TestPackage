@@ -1,0 +1,172 @@
+---
+title: "Summer School -- day two"
+author: 
+- "Daniel"
+- "Alter Ego"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output: bookdown::pdf_document2
+toc: yes
+lot: yes
+lof: yes
+bibliography: test.bib
+papersize: a4
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# aha #
+
+Look at Figure \@ref(fig:testing), it shows the output of a magic function.
+
+```{r testing, fig.cap = "add two"}
+library(TestPackage)
+a <- add_2(seq(1:10))
+plot(a)
+```
+
+
+Adding 2 to 4 we get `r add_2(4)`.
+
+```{r table}
+knitr::kable(head(cars),
+             caption = "A table of the cars package"
+             )
+```
+
+Look at the table \@ref(tab:table).
+
+Thanks to @bookdown, @rmarkdown, @knitr
+
+Xie knows what he (?) is doing [-@knitr].
+
+```{r addthree}
+add_3(5)
+```
+
+# Caching Tests #
+
+```{r cars, eval=FALSE,cache = TRUE}
+library(tidyverse)
+x <- rnorm(1e6) - 5e3
+knitr::kable(head(x))
+```
+
+```{r pressure, eval = FALSE, echo = FALSE, cache = TRUE, dependson = "cars"}
+knitr::kable(head(x + 2))
+```
+
+# second column
+
+```{r selsecond}
+selsecond(mtcars)
+```
+
+# Packrat test
+
+```{r binford}
+library(binford)
+data(LRB)
+knitr::kable(head(LRB))
+```
+
+
+```{r}
+harran <- read.table("../data/Sites_HarranPlain.csv", sep = ",", header=TRUE)
+str(harran)
+
+library(sp)
+coordinates(harran) <- ~X+Y
+proj4string(harran) <- CRS("+init=epsg:4326")
+str(harran)
+```
+
+```{r srtm, eval = FALSE}
+library(raster)
+##srtm <- getData("SRTM", lon=38, lat=37)
+srtm <- raster("srtm_44_05.tif")
+plot(srtm)
+points(harran)
+srtm <- crop(srtm, extent(harran)+1)
+plot(srtm)
+srtm <- projectRaster(srtm, crs = CRS("+init=epsg:32637"))
+srtm2 <- aggregate(srtm, fact = 2)
+writeRaster(srtm2, "data/dem.tif", overwrite = TRUE)
+```
+
+
+## create point pattern object
+
+```{r}
+harran <- spTransform(harran, CRSobj = CRS("+init=epsg:32637"))
+library(spatstat)
+harran_ppp <- ppp(x = harran@coords[,1],
+              y = harran@coords[,2],
+              window = owin(xrange = harran@bbox[1,],
+                            yrange = c(min(harran@coords[,2]), min(harran@coords[,2]+52000))))
+plot(harran)
+```
+
+### challenge: delete duplicated points
+
+```{r ch1}
+anyDuplicated(harran_ppp)
+harran <- unique(harran_ppp)
+plot(harran_ppp)
+
+harran_ppp_nn <- nndist(harran_ppp)
+str(harran_ppp_nn)
+hist(harran_ppp_nn)
+```
+
+## challenge create kernel density estimation
+
+```{r ch2}
+harran_kde <- density.ppp(x = harran_ppp, sigma = mean(harran_ppp_nn))
+plot(harran_kde)
+```
+
+## raster
+
+```{r}
+library(raster)
+dem <- raster("../data/dem.tif")
+
+im_dem <- as.im(as.image.SpatialGridDataFrame(as(dem, "SpatialGridDataFrame")))
+
+harran_rhohat <- rhohat(object = harran_ppp, 
+                        covariate = im_dem,
+                        bw = 200
+                        )
+plot(harran_rhohat)
+str(harran_rhohat)
+rho_dem <- predict(harran_rhohat)
+plot(rho_dem)
+diff_rho <- harran_kde - rho_dem
+```
+
+create random points with rpoispp function that have the same intensity like our point pattern.
+
+```{r ch3}
+set.seed(123)
+harran_poispp2 <- rpoispp(lambda = harran_ppp$n/area.owin(harran_ppp$window), win = harran_ppp$window)
+set.seed(123)
+harran_poispp3 <- rpoispp(intensity(harran_ppp), win=Window(harran_ppp))
+set.seed(123)
+harran_poispp4 <- rpoispp(ex = harran_ppp)
+
+plot(harran_ppp)
+points(harran_poispp2, col = "red")
+points(harran_poispp3, col = "blue")
+points(harran_poispp4, col = "green")
+```
+
+## Second order effects
+
+```{r}
+
+```
+
+
+# References

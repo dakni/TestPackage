@@ -165,8 +165,31 @@ points(harran_poispp4, col = "green")
 ## Second order effects
 
 ```{r}
+harran_g <- Gest(harran_ppp)
+str(harran_g)
+plot(harran_g)
+harran_ge <- envelope(harran_ppp, fun = "Gest", nsim = 999)
+plot(harran_ge)
 
+harran_f <- Fest(harran_ppp)
+harran_fe <- envelope(harran_ppp, fun = "Fest", nsim = 99)
+
+harran_k <- Kest(harran_ppp)
+harran_ke <- envelope(harran_ppp, fun = "Kest", nsim = 99)
+
+plot(harran_fe)
+plot(harran_ke)
 ```
+
+## Inhomogeneous G/F/K
+
+```{r}
+harran_gi <- Ginhom(harran_ppp, lambda = predict(harran_rhohat))
+#par(mfrow = c(1,2))
+#plot(harran_gi, xlim = c(0,6000))
+#plot(harran_g, xlim = c(0,6000))
+```
+
 
 
 # References

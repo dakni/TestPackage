@@ -3,7 +3,7 @@
 TestPackage
 ===========
 
-[![Travis-CI Build Status](https://travis-ci.org/dakni/TestPackage.svg?branch=master)](https://travis-ci.org/dakni/TestPackage)
+[![Travis-CI Build Status](https://travis-ci.org/dakni/TestPackage.svg?branch=master)](https://travis-ci.org/dakni/TestPackage) [![Circle CI](https://circleci.com/gh/dakni/TestPackage.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/dakni/TestPackage)
 
 The goal of TestPackage is to add 2 and add 3
 

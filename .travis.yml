@@ -9,7 +9,7 @@ addons:
   apt:
     packages:
       - libudunits2-dev
-      - libdgdal-dev
+      - libgdal-dev
       - libgsl0-dev
       - gdal-bin
       - libgeos-dev
